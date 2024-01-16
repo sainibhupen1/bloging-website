@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navigation {
+    margin-top: 25px;
+    font-family:var(--font1);
+    /* height: 74px; */
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left{
+font-size: 20px;
+display: flex;
+}
+
+.nav-left span{
+  font-size: 35px;
+  /* padding-top: 6px; */
+   }
+
+.nav-left ul{
+   display: flex;
+   align-items: center;
+   margin: 0 77px;
+   font-size: 22px;
+   /* padding-bottom: 20px; */
+  
+
+} 
+
+.nav-left ul li{
+    list-style: none;
+    margin: 0 14px;
+    font-family: var(--font2);
+    transition: all 0.3s ease-in-out;
+} 
+
+.nav-left ul li a{
+   text-decoration: none;
+   color: black;
+
+} 
+
+.nav-left ul li a:hover{
+
+    color: var(--main-bg-color);
+    font-weight: bolder;
+    }
+
+.content{
+    display: flex;
+    height: 100%;
+    /* background-color: rgb(234, 172, 200); */
+    margin-top: 12px;
+    padding: 9px;
+    position: relative;
+}
+
+.content::after{
+    content: "";
+    background-image: url('21.jpg');
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    opacity: 0.15;
+    border-radius: 12px;
+}
+
+.content-left{
+    font-family: var(--font1);
+    /* width: 50%; */
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+    z-index: 1;
+}
+.content-right{
+    /* width: 50%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-right img{
+    height: 232px;
+    border: 2px solid black;
+    border-radius: 200px;
+}
+
+.home-articles{
+    /* height: 455px; */
+    padding: 18px;
+    background-color:rgb(248, 239, 239,0.5);
+    margin-top: 23px;
+    position: relative;
+}
+
+.year-box{
+   position: absolute; 
+   width: 234px;
+   height:253px ;
+   /* background-color: red; */
+   right: 4px;
+   top: 100px;
+   font-size: 18px;
+}
+
+.year-box div{
+  margin: 12px 0;  
+}
+.home-article{
+    display: flex;
+   margin: 25px;
+}
+
+.home-article img{
+    width: 200px;
+}
+
+.home-article-content{
+    align-self: center;
+    padding: 25px;
+}
+
+.home-article-content a{
+  text-decoration: none;  
+  color: black; 
+}
+
+.footer{
+    height: 50px;
+    background-color: var(--main-bg-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+}
+
+.footer a{
+    color:white;
+}
